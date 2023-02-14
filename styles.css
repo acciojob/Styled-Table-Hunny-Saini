@@ -1,1 +1,25 @@
 /* your code */
+*{
+	margin: 0px;
+}
+.game-stats{
+	width: 90%;
+	height: 150px;
+	text-align: left;
+	border-collapse: collapse;
+	border: 2px solid #f2f2f2;
+	border-radius: 40px;
+}
+
+thead{
+	background-color:teal;
+	color: white;
+}
+
+th{
+	padding: 4px;
+}
+
+.game-stats tr:nth-child(even){
+	background-color: #f2f2f2;
+}
